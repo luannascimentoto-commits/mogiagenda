@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Identidade visual AgendaMogi (aprovada na Etapa 2) */
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-50: #e3f1f0;
+  --color-brand-600: #0f766e;
+  --color-brand-700: #0b5a54;
+
+  --color-ink: #12202b;
+  --color-muted: #55656d;
+  --color-line: #dce4e6;
+  --color-surface: #f6f8f8;
+  --color-danger: #b42318;
+
+  /* cores de status dos agendamentos */
+  --color-pending-bg: #fef3c7;
+  --color-pending-fg: #92400e;
+  --color-confirmed-bg: #dcfce7;
+  --color-confirmed-fg: #166534;
+  --color-cancelled-bg: #fee2e2;
+  --color-cancelled-fg: #991b1b;
+  --color-completed-bg: #e8edef;
+  --color-completed-fg: #33454e;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
